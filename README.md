@@ -39,7 +39,7 @@ If you use STCA in your reseasrch, please cite the following paper:
 
 - ***Experiments:*** Experiments completed in the paper (MNIST classification, instrument recognition, and unsegmented sound events detection).
 
-- ***Algorithms:*** Algorithms for training and testing.
+- ***Algorithm:*** Algorithms for training and testing.
 
 - ***Cuda:*** CU and PTX files which are crucial for the parallel processing of this implementation.
 
@@ -66,7 +66,7 @@ After training, the network weights and some information about training will als
 ## More experimental settings
 
 More experimental settings (e.g., parameters, error curves) can be found from subfolders in the ***Experiments***.
-I'm sorry about that the codes in ***Algorithms*** are certainly confused, since different experiments are conducted on different versions of this work. 
+I'm sorry about that the codes in ***Algorithm*** are certainly confused, since different experiments are conducted on different versions of this work. 
 I might unify these codes in the future version.
 
 ## Contact
