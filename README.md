@@ -34,10 +34,11 @@ If you use STCA in your reseasrch, please cite the following paper:
 ## Getting started
 
 - Note that this version can only construct **fully-connected networks**. The following version will support convolutional structures.
+- First, you should add 'STCA-DSNN' and its subfolders to path and then run 'Experiment/MNIST/runMNIST.m' (you need to alter the  variable 'path' in this file to math your own path.).
 
 ### Folder organization
 
-- ***Experiments:*** Experiments completed in the paper (MNIST classification, instrument recognition, and unsegmented sound events detection).
+- ***Experiment:*** Experiments completed in the paper (MNIST classification, instrument recognition, and unsegmented sound events detection).
 
 - ***Algorithm:*** Algorithms for training and testing.
 
@@ -65,7 +66,7 @@ After training, the network weights and some information about training will als
 
 ## More experimental settings
 
-More experimental settings (e.g., parameters, error curves) can be found from subfolders in the ***Experiments***.
+More experimental settings (e.g., parameters, error curves) can be found from subfolders in the ***Experiment***.
 I'm sorry about that the codes in ***Algorithm*** are certainly confused, since different experiments are conducted on different versions of this work. 
 I might unify these codes in the future version.
 
