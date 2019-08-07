@@ -67,7 +67,7 @@ After training, the network weights and some information about training will als
 
 More experimental settings (e.g., parameters, error curves) can be found from subfolders in the ***Experiments***.
 I'm sorry about that the codes in ***Algorithms*** are certainly confused, since different experiments are conducted on different versions of this work. 
-I might unifies these codes in the future version.
+I might unify these codes in the future version.
 
 ## Contact
 If you have some problems on this implementation, please contact me by this e-mail: gupj1202@gmail.com
