@@ -46,7 +46,7 @@ for ischeme = 1:length(scheme)
     end
     Accuracy = [];
     Max_Acc = [];
-    for irun  =1 :15
+    for irun  =1 :1
         for itau = 1:length(Tau)
             for imul = 1:length(Mul)
                 path = ['/home/gpj/gpj/gpj/STCA-DSNN/Data/Structure/MNIST/Structure_grid_dropout_',scheme{ischeme},'_',num2str(irun),'.mat'];
@@ -60,4 +60,4 @@ for ischeme = 1:length(scheme)
         Max_Acc = [Max_Acc;max(Structure.Errlog{4,1})];
     end
 end
-save(['../../Data/Data/MNIST/All_Accuracies.mat'],'Accuracy','Max_Acc');
+%save(['../../Data/Data/MNIST/All_Accuracies.mat'],'Accuracy','Max_Acc');
